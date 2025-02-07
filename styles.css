@@ -1,0 +1,193 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #f0f2f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 15px 10%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo,.nav-links,li {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.logo,.nav-links,li{
+    display: inline;
+}
+
+
+.nav-links {
+    list-style: none;
+    margin-left: 515px;
+
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: violet;
+}
+.nav-links a:active {
+    color:violet;
+    border-bottom: 2px solid blue;
+}
+
+/* Sections */
+section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+}
+
+.home-content {
+    max-width: 500px;
+    text-align: left;
+}
+
+.home-content h1 {
+    font-size: 40px;
+}
+
+.home-content h1 span {
+    color: violet;
+}
+#home-title.active{
+    border-bottom: 3px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+#about-title.active{
+    border-bottom: 3px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background:blue;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: purple;
+}
+
+/* Profile Image */
+.home-image img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills Section 
+#skills ul {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}*/
+
+
+/* Contact Section */
+#contact {
+    background: #e0e0e0;
+    padding: 50px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+}
+.divi{
+    position: relative;
+    right: 900px;
+}
+.abt{
+     position: relative;
+     left: 400px;
+     text-align: justify;
+}
+.g{
+    position: relative;
+    right: 800px;
+}
+.project-card{
+    flex: 1;
+    
+
+
+}
+.gili{
+    text-align: left;
+}
+
+
+#project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+
+}
+.project-card{
+    position: relative;
+     left: 400px;
+     text-align: justify;
+
+}
+
+
+.project-card a{
+    color: blue;
+    text-decoration: none;
+    position: relative;
+    
+}
+.project-card a:hover{
+    text-decoration: underline;
+}
